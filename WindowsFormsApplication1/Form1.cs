@@ -142,6 +142,12 @@ namespace WindowsFormsApplication1
             }
             return returnstr;
         }
+        /// <summary>
+        /// 转换为SVM需要的数据格式
+        /// </summary>
+        /// <param name="combyt"></param>
+        /// <param name="len"></param>
+        /// <returns></returns>
         private string toSVMstring(double[] combyt, int len=146)  //int数组转为字符串
         {
             string returnstr = "@";
